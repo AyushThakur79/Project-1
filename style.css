@@ -1072,6 +1072,7 @@ html::-webkit-scrollbar-thumb {
 		font-family: sundown-light;
 		margin-top: 5%;
 		line-height: 5vw;
+		font-size: 4vw;
 	}
 
 	.swiper-slide {
