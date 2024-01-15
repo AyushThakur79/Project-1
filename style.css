@@ -1,16 +1,16 @@
 @font-face {
 	font-family: sundown-font;
-	src: url(/fonts/NeueHaasDisplayRoman.woff2);
+	src: url(./fonts/NeueHaasDisplayRoman.woff2);
 }
 
 @font-face {
 	font-family: sundown-mediu;
-	src: url(/fonts/NeueHaasDisplayMediu.woff2);
+	src: url(./fonts/NeueHaasDisplayMediu.woff2);
 }
 
 @font-face {
 	font-family: sundown-light;
-	src: url(/fonts/NeueHaasDisplayRoman.woff2);
+	src: url(./fonts/NeueHaasDisplayRoman.woff2);
 }
 
 * {
