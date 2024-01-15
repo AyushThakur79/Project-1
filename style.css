@@ -1192,7 +1192,7 @@ html::-webkit-scrollbar-thumb {
 	.footer-endText {
 		display: flex;
 		justify-content: space-between;
-		font-size: 4vw;
+		font-size: 7vw;
 		margin-top: 2vw;
 		margin-bottom: 2vw;
 		white-space: wrap;
