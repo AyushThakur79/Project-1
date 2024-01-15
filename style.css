@@ -1005,7 +1005,7 @@ html::-webkit-scrollbar-thumb {
 		overflow: hidden;
 		margin: 3vw 2vw;
 		text-align: center;
-		margin-top: 760vw;
+		margin-top: 755vw;
 		margin-left: 5vw;
 	}
 
@@ -1072,6 +1072,7 @@ html::-webkit-scrollbar-thumb {
 		font-family: sundown-light;
 		margin-top: 5%;
 		line-height: 5vw;
+		font-size: 4vw;
 	}
 
 	.swiper-slide {
@@ -1113,10 +1114,10 @@ html::-webkit-scrollbar-thumb {
 		color: #eee9e2;
 		text-align: center;
 		margin-right: 11vw;
+		margin-bottom: 4vw;
 		display: flex;
-		align-items: flex-end;
+		align-items: center;
 		position: relative;
-		/* border-bottom: 1px solid #5252523c; */
 	}
 
 	.footer-content {
@@ -1191,9 +1192,10 @@ html::-webkit-scrollbar-thumb {
 	.footer-endText {
 		display: flex;
 		justify-content: space-between;
-		font-size: 1.3vw;
+		font-size: 4vw;
 		margin-top: 2vw;
 		margin-bottom: 2vw;
+		white-space: wrap;
 	}
 
 	.footer-endText h5 {
@@ -1208,6 +1210,5 @@ html::-webkit-scrollbar-thumb {
 	.footer-endText h5 a:hover {
 		color: white;
 		text-decoration: underline;
-		transition: all 0.6s ease-in-out;
 	}
 }
