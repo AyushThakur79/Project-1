@@ -37,6 +37,7 @@ body {
 	/* background-color: black; */
 	position: relative;
 	z-index: 10;
+	width: 100%;
 	/* height: 590vh; */
 }
 
@@ -1216,11 +1217,13 @@ html::-webkit-scrollbar-thumb {
 
 	.footer-endText h5 {
 		color: white;
+		font-size: 7px;
 	}
 
 	.footer-endText h5 a {
 		color: white;
 		text-decoration: none;
+		font-size: 7px;
 	}
 
 	.footer-endText h5 a:hover {
@@ -1235,7 +1238,7 @@ html::-webkit-scrollbar-thumb {
 		background-color: #0000005a;
 		z-index: 99;
 		position: fixed;
-		top: -130%;
+		top: -105%;
 		transition: all 0.7s ease;
 	}
 

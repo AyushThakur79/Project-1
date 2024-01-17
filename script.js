@@ -66,9 +66,10 @@ menu.addEventListener("click", function () {
 		menu2.style.padding = "0vw 66vw"
 		flag = 1;
 	} else {
-		menuscr.style.top = "-130%";
+		menuscr.style.top = "-105%";
 		navimg.style.opacity = 1;
 		menu2.style.padding = "0vw 0vw"
+		menu2.style.position = "relative"
 		flag = 0;
 	}
 });
