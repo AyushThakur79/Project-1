@@ -765,6 +765,7 @@ html::-webkit-scrollbar-thumb {
 		justify-content: space-between;
 		padding: 5vw 3vw;
 		gap: 1vw;
+		background-color: #EFEAE3;
 	}
 
 	nav img {
