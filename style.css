@@ -1208,7 +1208,7 @@ html::-webkit-scrollbar-thumb {
 	.footer-endText {
 		display: flex;
 		justify-content: space-between;
-		font-size: 15px;
+		font-size: 7px;
 		margin-top: 2vw;
 		margin-bottom: 2vw;
 		white-space: wrap;
