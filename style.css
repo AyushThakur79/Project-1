@@ -1153,7 +1153,7 @@ html::-webkit-scrollbar-thumb {
 		margin-left: 5vw;
 		margin-top: 23vw;
 		font-size: 48px;
-		line-height: 33px;
+		line-height: 37px;
 		margin-bottom: 5vw;
 	}
 
@@ -1209,7 +1209,7 @@ html::-webkit-scrollbar-thumb {
 	.footer-endText {
 		display: flex;
 		justify-content: space-between;
-		font-size: 15px;
+		font-size: 9px;
 		margin-top: 2vw;
 		margin-bottom: 2vw;
 		white-space: wrap;
@@ -1218,13 +1218,13 @@ html::-webkit-scrollbar-thumb {
 
 	.footer-endText h5 {
 		color: white;
-		font-size: 15px;
+		font-size: 9px;
 	}
 
 	.footer-endText h5 a {
 		color: white;
 		text-decoration: none;
-		font-size: 15px;
+		font-size: 9px;
 	}
 
 	.footer-endText h5 a:hover {
