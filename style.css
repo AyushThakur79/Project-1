@@ -1152,7 +1152,7 @@ html::-webkit-scrollbar-thumb {
 		color: white;
 		margin-left: 5vw;
 		margin-top: 23vw;
-		font-size: 28px;
+		font-size: 48px;
 		line-height: 33px;
 		margin-bottom: 5vw;
 	}
@@ -1213,11 +1213,12 @@ html::-webkit-scrollbar-thumb {
 		margin-top: 2vw;
 		margin-bottom: 2vw;
 		white-space: wrap;
+		padding: 0 3vw;
 	}
 
 	.footer-endText h5 {
 		color: white;
-		font-size: 7px;
+		font-size: 13px;
 	}
 
 	.footer-endText h5 a {
