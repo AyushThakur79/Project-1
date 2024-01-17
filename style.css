@@ -337,6 +337,7 @@ nav {
 	height: 143vh;
 	width: 100%;
 	background-color: #efeae3;
+	/* position: relative; */
 	/* padding: 1vw; */
 }
 
@@ -458,7 +459,7 @@ nav {
 /* page4 starts  */
 
 .page4 {
-	height: 80vh;
+	height: 90vh;
 	width: 100%;
 	padding: 2vw 2vw;
 	background-color: #efeae3;
