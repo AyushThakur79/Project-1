@@ -363,7 +363,7 @@ nav img {
 	border-bottom-right-radius: 5vw;
 }
 
-.menu-scr{
+.menu-scr {
 	display: none;
 }
 
@@ -386,6 +386,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 650px) {
+	html,
 	body {
 		overflow-x: hidden;
 	}
@@ -433,6 +434,126 @@ html::-webkit-scrollbar-thumb {
 
 	/* navbar complete */
 
+	.page1 {
+		min-height: 5vh;
+		width: 100%;
+		position: relative;
+	}
+
+	/* Page2 Starts */
+
+	.page2 {
+		height: 90vh;
+		width: 100%;
+		/* background-color: red; */
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: column-reverse;
+		padding: 12.15vw 0vw;
+		margin-left: -19vw;
+		line-height: 11vw;
+	}
+
+	.image {
+		height: 35vh;
+		width: 73vw;
+		border-radius: 50%;
+		margin-left: 36vw;
+	}
+
+	.image img {
+		height: 100%;
+		width: 100%;
+	}
+
+	.text-container {
+		height: 34vw;
+		width: 70%;
+		/* background-color: orange; */
+		font-family: sundown-mediu;
+		white-space: nowrap;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.text-container h1 {
+		color: black;
+		font-size: 49px;
+		text-align: right;
+		line-height: 11vw;
+		margin-top: 1vw;
+		margin-left: 27vw;
+		width: 100%;
+	}
+
+	.text-container h2 {
+		margin-top: 2vw;
+		position: relative;
+		z-index: 3;
+	}
+
+	.text-container h2 a {
+		color: black;
+		font-size: 21px;
+		text-align: right;
+		text-decoration: none;
+		margin-top: 3vw;
+		margin-left: 25vw;
+	}
+
+	.text-container h2 a:hover {
+		text-decoration: underline;
+		color: black;
+	}
+
+	.text-container2 {
+		font-size: 17px;
+		color: black;
+		margin-top: 13vw;
+		line-height: 10vw;
+		font-weight: 500;
+		position: relative;
+		z-index: 3;
+	}
+
+	.line {
+		height: 0.1vh;
+		width: 87.5vw;
+		background-color: #000000;
+		opacity: 0.2;
+	}
+
+	.text-container2 h4 {
+		font-size: 22px;
+	}
+
+	.circle-shape {
+		height: 32vh;
+		width: 63vw;
+		border-radius: 50%;
+		background: linear-gradient(to top, #c31d1d, #e27423);
+		position: absolute;
+		z-index: 2;
+		top: 26%;
+		left: 8%;
+		filter: blur(17px);
+		animation-name: circle-shape;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		animation-direction: alternate;
+		animation-duration: 5s;
+	}
+
+	@keyframes circle-shape {
+		from {
+			transform: translate(10%, -10%) skew(0);
+		}
+
+		to {
+			transform: translate(-10%, 10%) skew(-17deg);
+		}
+	}
 	/* footer starts  */
 
 	.footer-wrapper {
