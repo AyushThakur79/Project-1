@@ -614,7 +614,7 @@ html::-webkit-scrollbar-thumb {
 		transition: all 0.5s ease;
 	}
 
-	.textCont h5 a {
+	.textCont a {
 		color: white;
 		text-decoration: none;
 	}
@@ -705,7 +705,7 @@ html::-webkit-scrollbar-thumb {
 		/* display: flex; */
 	}
 
-	.inner-scr h2 {
+	.inner-scr a {
 		color: black;
 		text-align: right;
 		padding: 0vw 7vw;
