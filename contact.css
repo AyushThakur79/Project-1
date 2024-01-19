@@ -32,6 +32,7 @@ body {
 	position: relative;
 	z-index: 10;
 	width: 100%;
+	background-color: #efeae3;
 	/* height: 590vh; */
 }
 
@@ -39,7 +40,6 @@ body {
 	min-height: 10vh;
 	width: 100%;
 	position: relative;
-	background-color: #efeae3;
 }
 
 nav {
@@ -109,7 +109,7 @@ nav img {
 /* Page2 Starts */
 
 .page2 {
-	height: 100vh;
+	height: 110vh;
 	width: 100%;
 	/* background-color: red; */
 	display: flex;
@@ -193,12 +193,12 @@ nav img {
 	height: 50vh;
 	width: 25vw;
 	border-radius: 50%;
-	background: linear-gradient(to top, #FF3E0E, #FE8A35);
+	background: linear-gradient(to top, #ff3e0e, #fe8a35);
 	position: absolute;
 	z-index: 2;
 	top: 49%;
 	left: 58%;
-	filter: blur(15px);
+	filter: blur(17px);
 	animation-name: circle-shape;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
@@ -214,4 +214,170 @@ nav img {
 	to {
 		transform: translate(-10%, 10%) skew(-17deg);
 	}
+}
+
+/* footer starts  */
+
+.footer-wrapper {
+	height: 100vh;
+	width: 100%;
+}
+
+.footer {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	background-color: #0b0500;
+	padding: 0vw 2.8vw;
+	padding-top: 5vw;
+	position: fixed;
+	z-index: 9;
+	overflow: hidden;
+	bottom: 0;
+}
+
+.seperator {
+	height: 0.1vw;
+	width: 95vw;
+	margin-right: 1vw;
+	background-color: rgba(241, 241, 241, 0.3);
+}
+
+.footer h1 {
+	font-size: 23vw;
+	color: #eee9e2;
+	text-align: center;
+	margin-right: 7vw;
+	display: flex;
+	align-items: flex-end;
+	position: relative;
+	/* border-bottom: 1px solid #5252523c; */
+}
+
+.footer-content {
+	height: 20vh;
+	width: 90vw;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	z-index: 11;
+	/* background-color: #fe0a0a; */
+}
+
+.textCont {
+	color: white;
+	margin-left: 5vw;
+	font-size: 2vw;
+	line-height: 2.5vw;
+}
+
+.textCont :hover {
+	color: #b4a79f;
+	transition: all 0.5s ease;
+}
+
+.textCont h5 a {
+	color: white;
+	text-decoration: none;
+}
+
+.mail p {
+	font-size: 1.4vw;
+	color: white;
+	font-family: sundown-light;
+	padding-right: 4vw;
+}
+
+.input-mail {
+	position: relative;
+	/* background-color: red; */
+}
+
+.input-mail i {
+	position: absolute;
+	top: 3vw;
+	right: 3.3vw;
+	z-index: 9;
+	cursor: pointer;
+}
+
+.mail input {
+	font-size: 1vw;
+	height: 3.3vw;
+	width: 20vw;
+	line-height: 1vw;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid rgba(241, 241, 241, 0.3);
+	margin-top: 1.3vw;
+	font-family: sundown-light;
+	outline: none;
+	position: relative;
+	z-index: 9;
+	color: white;
+}
+
+.footer-endText {
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.3vw;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+}
+
+.footer-endText h5 {
+	color: white;
+}
+
+.footer-endText h5 a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer-endText h5 a:hover {
+	color: white;
+	text-decoration: underline;
+	transition: all 0.6s ease-in-out;
+}
+
+/* footer animation */
+
+.footer-animation1 {
+	height: 40vh;
+	width: 100vw;
+	background: linear-gradient(17deg, #fe330a 45%, #ff9831);
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	overflow: hidden;
+	filter: blur(17px);
+	z-index: 1;
+	animation-name: footer-animation1;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-direction: alternate;
+	animation-duration: 7s;
+	border-bottom-left-radius: 5vw;
+	border-bottom-right-radius: 5vw;
+}
+
+
+/* end - Miscellaneous*/
+
+*::selection {
+	background-color: #fe0a0a;
+	color: #e5e4e3;
+}
+
+html::-webkit-scrollbar {
+	display: block;
+	width: 7px;
+	background-color: #efeae3;
+}
+
+html::-webkit-scrollbar-thumb {
+	background-color: #fe340a;
+	border-radius: 20px;
 }
