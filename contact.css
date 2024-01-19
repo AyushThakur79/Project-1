@@ -386,11 +386,6 @@ html::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 650px) {
-	html,
-	body {
-		overflow-x: hidden;
-	}
-
 	.page1 {
 		min-height: 100vh;
 		width: 100vw;
@@ -443,7 +438,7 @@ html::-webkit-scrollbar-thumb {
 	/* Page2 Starts */
 
 	.page2 {
-		height: 90vh;
+		height: 100vh;
 		width: 100%;
 		/* background-color: red; */
 		display: flex;
