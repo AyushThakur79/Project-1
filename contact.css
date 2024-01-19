@@ -438,7 +438,7 @@ html::-webkit-scrollbar-thumb {
 	/* Page2 Starts */
 
 	.page2 {
-		height: 100vh;
+		height: 110vh;
 		width: 100%;
 		/* background-color: red; */
 		display: flex;
