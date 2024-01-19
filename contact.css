@@ -363,6 +363,10 @@ nav img {
 	border-bottom-right-radius: 5vw;
 }
 
+.menu-scr{
+	display: none;
+}
+
 /* end - Miscellaneous*/
 
 *::selection {
