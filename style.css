@@ -646,13 +646,7 @@ nav img {
 	left: 0%;
 	overflow: hidden;
 	filter: blur(40px);
-	transform: rotate(-13deg);
 	z-index: 1;
-	animation-name: footer-animation1;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-	animation-direction: alternate;
-	animation-duration: 7s;
 	border-bottom-left-radius: 5vw;
 	border-bottom-right-radius: 5vw;
 }
