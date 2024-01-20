@@ -969,7 +969,7 @@ html::-webkit-scrollbar-thumb {
 	/* page7 starts  */
 
 	.page7 {
-		height: 130vw;
+		height: 111vw;
 		width: 100%;
 		padding: 4vw 2vw;
 		background-color: #ff881e;
@@ -1001,6 +1001,7 @@ html::-webkit-scrollbar-thumb {
 		font-family: sundown-light;
 		margin-top: 0%;
 		font-size: 14px;
+		width: 123%;
 	}
 
 	.swiper-slide {
