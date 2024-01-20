@@ -478,7 +478,7 @@ html::-webkit-scrollbar-thumb {
 		text-align: right;
 		line-height: 11vw;
 		margin-top: 1vw;
-		margin-left: 27vw;
+		margin-left: 24vw;
 		width: 100%;
 	}
 
@@ -494,7 +494,7 @@ html::-webkit-scrollbar-thumb {
 		text-align: right;
 		text-decoration: none;
 		margin-top: 3vw;
-		margin-left: 25vw;
+		margin-left: 22vw;
 	}
 
 	.text-container h2 a:hover {
@@ -705,7 +705,7 @@ html::-webkit-scrollbar-thumb {
 		/* display: flex; */
 	}
 
-	.inner-scr h2 {
+	.inner-scr a {
 		color: black;
 		text-align: right;
 		padding: 0vw 7vw;
