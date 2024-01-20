@@ -543,6 +543,10 @@ h3 {
 	color: white;
 }
 
+input::placeholder {
+	color: #c5bcbc;
+}
+
 .footer-endText {
 	display: flex;
 	justify-content: space-between;

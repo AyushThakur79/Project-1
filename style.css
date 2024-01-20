@@ -612,6 +612,10 @@ nav img {
 	color: white;
 }
 
+input::placeholder {
+	color: #c5bcbc;
+}
+
 .footer-endText {
 	display: flex;
 	justify-content: space-between;
@@ -1127,6 +1131,10 @@ html::-webkit-scrollbar-thumb {
 		font-family: sundown-light;
 		outline: none;
 		color: white;
+	}
+
+	input::placeholder {
+		color: #c5bcbc;
 	}
 
 	.footer-endText {
