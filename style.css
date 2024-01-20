@@ -677,7 +677,7 @@ html::-webkit-scrollbar-thumb {
 
 /* page1 responsive */
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
 	body {
 		overflow-x: hidden;
 	}
