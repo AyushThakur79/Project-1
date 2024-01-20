@@ -841,7 +841,7 @@ html::-webkit-scrollbar-thumb {
 	/* Page 5 starts */
 
 	.page5 {
-		height: 167vw;
+		height: 169vw;
 		width: 100%;
 		background: linear-gradient(to top, #ff881e, #fe8e1e);
 		padding: 5vw 0vw;
@@ -873,7 +873,7 @@ html::-webkit-scrollbar-thumb {
 
 	.inner-text2 {
 		height: 80vh;
-		width: 80vw;
+		width: 93vw;
 		/* background-color: red; */
 		padding: 0.1vw 0vw;
 		padding: 8vw 1vw;
