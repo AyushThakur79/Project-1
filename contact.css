@@ -385,6 +385,8 @@ html::-webkit-scrollbar-thumb {
 	border-radius: 20px;
 }
 
+/* Responsive */
+
 @media (max-width: 650px) {
 	.page1 {
 		min-height: 100vh;
