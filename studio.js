@@ -26,3 +26,27 @@ function swipperAnimation() {
 }
 
 swipperAnimation();
+
+// menu
+
+var menu = document.querySelector(".menu h5");
+var menu2 = document.querySelector(".menu");
+var menuscr = document.querySelector(".menu-scr");
+var navimg = document.querySelector("nav img");
+var flag = 0;
+
+menu.addEventListener("click", function () {
+	if (flag == 0) {
+		menuscr.style.top = 0;
+		navimg.style.opacity = 0;
+		menu2.style.position = "fixed";
+		menu2.style.padding = "0vw 68vw";
+		flag = 1;
+	} else {
+		menuscr.style.top = "-105%";
+		navimg.style.opacity = 1;
+		menu2.style.padding = "0vw 0vw";
+		menu2.style.position = "relative";
+		flag = 0;
+	}
+});
