@@ -750,8 +750,7 @@ html::-webkit-scrollbar-thumb {
 /* page1 responsive */
 
 @media (max-width: 650px) {
-
-	body{
+	body {
 		overflow-x: hidden;
 	}
 
@@ -766,7 +765,7 @@ html::-webkit-scrollbar-thumb {
 		justify-content: space-between;
 		padding: 5vw 3vw;
 		gap: 1vw;
-		background-color: #EFEAE3;
+		background-color: #efeae3;
 	}
 
 	nav img {
@@ -1243,10 +1242,10 @@ html::-webkit-scrollbar-thumb {
 		transition: all 0.7s ease;
 	}
 
-	.inner-scr{
+	.inner-scr {
 		height: 41%;
 		width: 100%;
-		background-color: #EFEAE3;
+		background-color: #efeae3;
 		border-bottom-left-radius: 25px;
 		border-bottom-right-radius: 25px;
 		padding: 31vw 0;
