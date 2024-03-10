@@ -566,8 +566,21 @@ input::placeholder {
 
 .footer-endText h5 a:hover {
 	color: white;
-	text-decoration: underline;
 	transition: all 0.6s ease-in-out;
+}
+
+.footer-endText h5 a::after {
+	content: "";
+	background: #e5e4e3;
+	height: 0.1vw;
+	width: 0%;
+	display: block;
+	margin: auto;
+	transition: all 0.4s ease;
+}
+
+.footer-endText h5 a:hover::after {
+	width: 97%;
 }
 
 /* footer animation */

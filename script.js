@@ -68,13 +68,13 @@ menu.addEventListener("click", function () {
 	if (flag == 0) {
 		menuscr.style.top = 0;
 		navimg.style.opacity = 0;
-		menu2.style.position = "fixed"
-		menu2.style.padding = "0vw 66vw"
+		menu2.style.position = "fixed";
+		menu2.style.padding = "0vw 66vw";
 		flag = 1;
 	} else {
 		menuscr.style.top = "-105%";
 		navimg.style.opacity = 1;
-		menu2.style.padding = "0vw 66vw"
+		menu2.style.padding = "0vw 66vw";
 		flag = 0;
 	}
 });
