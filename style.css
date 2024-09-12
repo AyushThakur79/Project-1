@@ -55,7 +55,7 @@ nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 4.3vw 2vw;
+	padding: 4.3vw 1vw;
 	position: relative;
 	z-index: 100;
 }
